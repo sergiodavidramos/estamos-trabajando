@@ -75,7 +75,8 @@ font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: left;
-    padding: 3em
+    padding: 3em;
+    z-index: 500;
   }
 .textos .titulo{
   font-family: "Lato";
@@ -1077,4 +1078,7 @@ opacity: 1;
   position: absolute;
   top: 140px;
   left: 245px;
+}
+.img-logo{
+    width: 250px;
 }
