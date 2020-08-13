@@ -1,0 +1,28 @@
+@media (max-width: 710px) {
+
+    .textos {
+        height: auto;
+        width: auto;
+        position: relative;
+        display: flex;
+        align-items: none;
+        justify-content: left;
+        padding: 2em;
+        top: -100px;
+        font-size: 14px;
+    }
+
+    .container {
+        right: 190px;
+        height: 0;
+        width: 0;
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 360px) {
+    .container {
+
+        margin-top: 200px;
+    }
+}
